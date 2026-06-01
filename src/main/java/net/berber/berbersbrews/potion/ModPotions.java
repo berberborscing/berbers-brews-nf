@@ -55,7 +55,6 @@ public class ModPotions {
             () -> new Potion(new MobEffectInstance(ModEffects.PEACE, 9600, 0)));
 
     //Perception potions
-    /*
     public static final Holder<Potion> AMETHYST_PERCEPTION_POTION = POTIONS.register("amethystperception_potion",
             () -> new Potion(new MobEffectInstance(ModEffects.AMETHYST_PERCEPTION, 1800, 0)));
     public static final Holder<Potion> LONG_AMETHYST_PERCEPTION_POTION = POTIONS.register("long_amethystperception_potion",
@@ -83,6 +82,7 @@ public class ModPotions {
             () -> new Potion(new MobEffectInstance(ModEffects.DIAMOND_PERCEPTION, 4800, 0)));
     public static final Holder<Potion> STRONG_DIAMOND_PERCEPTION_POTION = POTIONS.register("strong_diamondperception_potion",
             () -> new Potion(new MobEffectInstance(ModEffects.DIAMOND_PERCEPTION, 900, 1)));
+
 
     public static final Holder<Potion> EMERALD_PERCEPTION_POTION = POTIONS.register("emeraldperception_potion",
             () -> new Potion(new MobEffectInstance(ModEffects.EMERALD_PERCEPTION, 1800, 0)));
@@ -132,7 +132,6 @@ public class ModPotions {
             () -> new Potion(new MobEffectInstance(ModEffects.REDSTONE_PERCEPTION, 4800, 0)));
     public static final Holder<Potion> STRONG_REDSTONE_PERCEPTION_POTION = POTIONS.register("strong_redstoneperception_potion",
             () -> new Potion(new MobEffectInstance(ModEffects.REDSTONE_PERCEPTION, 900, 1)));
-    */
 
     public static void register(IEventBus eventBus) {
         POTIONS.register(eventBus);

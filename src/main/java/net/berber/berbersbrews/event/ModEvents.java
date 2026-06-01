@@ -53,7 +53,6 @@ public class ModEvents {
             }
 
             if(ModConfigs.PERCEPTION_RECIPES_ENABLED.get()) {
-                /*
                 builder.addMix(Potions.THICK, Items.AMETHYST_SHARD, ModPotions.AMETHYST_PERCEPTION_POTION);
                 builder.addMix(ModPotions.AMETHYST_PERCEPTION_POTION, Items.REDSTONE, ModPotions.LONG_AMETHYST_PERCEPTION_POTION);
                 builder.addMix(ModPotions.AMETHYST_PERCEPTION_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_AMETHYST_PERCEPTION_POTION);
@@ -62,9 +61,11 @@ public class ModEvents {
                 builder.addMix(ModPotions.COAL_PERCEPTION_POTION, Items.REDSTONE, ModPotions.LONG_COAL_PERCEPTION_POTION);
                 builder.addMix(ModPotions.COAL_PERCEPTION_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_COAL_PERCEPTION_POTION);
 
+
                 builder.addMix(Potions.THICK, Items.RAW_COPPER, ModPotions.COPPER_PERCEPTION_POTION);
                 builder.addMix(ModPotions.COPPER_PERCEPTION_POTION, Items.REDSTONE, ModPotions.LONG_COPPER_PERCEPTION_POTION);
                 builder.addMix(ModPotions.COPPER_PERCEPTION_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_COPPER_PERCEPTION_POTION);
+
 
                 builder.addMix(Potions.THICK, Items.DIAMOND, ModPotions.DIAMOND_PERCEPTION_POTION);
                 builder.addMix(ModPotions.DIAMOND_PERCEPTION_POTION, Items.REDSTONE, ModPotions.LONG_DIAMOND_PERCEPTION_POTION);
@@ -97,7 +98,6 @@ public class ModEvents {
                 builder.addMix(Potions.THICK, Items.REDSTONE, ModPotions.REDSTONE_PERCEPTION_POTION);
                 builder.addMix(ModPotions.REDSTONE_PERCEPTION_POTION, Items.REDSTONE, ModPotions.LONG_REDSTONE_PERCEPTION_POTION);
                 builder.addMix(ModPotions.REDSTONE_PERCEPTION_POTION, Items.GLOWSTONE_DUST, ModPotions.STRONG_REDSTONE_PERCEPTION_POTION);
-                */
             }
         }
     }
