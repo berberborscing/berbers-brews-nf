@@ -24,8 +24,5 @@ public class BerbersBrewsClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        BerbersBrews.LOGGER.info("HELLO FROM CLIENT SETUP");
-        BerbersBrews.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
