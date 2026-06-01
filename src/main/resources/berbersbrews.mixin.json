@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.berber.berbersbrews.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "FishingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
